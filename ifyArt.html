@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IFY - Information For You</title>
+  <style>
+    body {
+        margin: 0px;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+    }
+    img{
+        width: 400px;
+        height: 200px;
+        padding: 10px;   
+        border-radius: 5px;
+    }
+
+    header {
+        background-color: #e64e28;
+        color: white;
+        padding: 2px;
+        text-align: center;
+        height: 100px;
+    }
+
+    nav{
+    background-color:#f75308;
+    color: #ffffff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 15px;
+    } 
+
+    main {
+        display: grid;
+        grid-template-columns: 2.5fr 1fr;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding-right: 20px;
+    }
+
+    article {
+        background-color: white;
+        padding: 15px;
+        border-radius: 13px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0,  0.3);
+        transition: all 0.3s ease
+    }
+    article:hover{
+        transform :scale(1.02);
+    }
+
+    article h2 {
+        color: #e64e28;
+    }
+
+    aside {
+        background-color: #ffffff;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    footer {
+        background-color: #f78049;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+
+  <header>
+    <h1>IFY - Information For You</h1>
+    
+  </header>
+
+  <nav>
+    <span>🔴AO VIVO</span> 
+     <span>POLÍTICA</span>
+     <span>ECONOMIA</span>
+     <span>ESPORTES</span>
+     <span>JOGOS</span>
+     <span>VIAGEM & GASTRONOMIA</span>
+
+
+   </nav>
+
+  <main>
+    <section>
+      <article>
+        <img  align="left" src="florianopolis.png">
+        <h4>Dados do censo</h4>
+        <h2>Por que Santa Catarina se tornou o principal destino de migrantes</h2>
+        <p>Há 2 horas - Em SC</p>
+      </article>
+
+      <article>
+        <img align="left" src="golpistas.png">
+        <h2>Golpistas enganam turistas e vendem caipirinha por 20mil no Rio de Janeiro</h2>
+        <p>há 5 horas - Em RJ</p>
+      </article>
+
+      <article>
+        <img align="left" src="parque.png">
+        <h2>Parque reabre trilha onde ocorreu acidente de Juliana Marins</h2>
+        <p>há 12 minutos</p>
+      </article>
+
+      <article>
+        <img class="imgnoticiap" align ="left" src="e.png">
+        <h2>Lula sanciona lei que prevê 'CNH Social'; veja oque muda e quem pode ter carteira gratuita</h2>
+        <p>Proposta sancionada nesta sexta (27) prevê que recursos obtidos com o pagamento de multas poderão ser usados para custear obtenção da CNH para população de baixa renda.</p>
+      </article>
+    </section>
+
+    <aside>
+      <h3>Destaques</h3>
+      
+    </aside>
+  </main>
+
+  <footer>
+    <p> 2025 IFY - Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
